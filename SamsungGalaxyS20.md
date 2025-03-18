@@ -1,6 +1,5 @@
-# Samsung Galaxy S20
+# Samsung Galaxy S20 5G
 <img src="Screenshots/photo_2024-10-25_01-58-15.jpg" alt="Samsung Galaxy S20 5G" width="400" align="right">
-
 **Maintainer: [linux-helper](https://github.com/linux-helper)** <br>
 **codename: x1s** <br>
 **Testers: [linux-helper](https://github.com/linux-helper)**
@@ -33,7 +32,7 @@
 | USB Device Mode            |                                                                |  ✅   |
 | USB Power Delivery         |                                                                |  ✅   |
 | Charging                   |                                                                |  ✅   |
-| WLAN                       | limits to 1.9mbits per secound                                 |  ⚠️    |
+| WLAN                       | Limited to 1.9mbps                                            |  ⚠️    |
 | CPU                        |                                                                |  ✅   |
 | Touchscreen                |                                                                |  ✅   |
 | Audio (Speakers/Microphone)|                                                                |  ✅   |
