@@ -7,19 +7,19 @@
  - Samsung Galaxy S20 with an Unlocked Bootloader.
  - PC/Laptop running **Ubuntu 22.04.3 LTS** get **Ubuntu 22.04.3 LTS** from [here](https://cdimage.ubuntu.com/releases/jammy/release/source/ubuntu-22.04.3-src-1.iso).
 
-# 1. Unlock Bootloader
+# Unlock Bootloader
 
-# Caution  
-
-### Your device will have poor security and be factory reset. AFTER THIS IS DONE THERE IS NO UNDO!
-
-For those who are experienced for that, for those who are new. I will give you a guide.
-
-1.  Go to  **Settings > About phone**  and tap  **Build number**  3 or more times to enable  **Developer mode**.
-2.  Go back to  **Settings**, open  **Developer options**, and enable  **OEM unlocking**. Enter your password if prompted.
-3.  Restart the device and quickly connect a  **USB cable** to your computer.
-4.  While connecting, press  **Volume Up + Volume Down**  buttons simultaneously to enter  **Odin mode**.
-5.  In Odin mode, press the volume up button to  **unlock the bootloader**. The device will restart and reset to factory settings.
+For those who are new. I will give you a guide.
+### Step 1
+Go to  **Settings > About phone**  and tap  **Build number**  3 or more times to enable  **Developer mode**.
+### Step 2
+Go back to  **Settings**, open  **Developer options**, and enable  **OEM unlocking**. Enter your password if prompted.
+ ### Step 3
+Restart the device and quickly connect a  **USB cable** to your computer.
+### Step 4
+While connecting, press  **Volume Up + Volume Down**  buttons simultaneously to enter  **Odin mode**.
+### Step 5
+In Odin mode, press the volume up button to  **unlock the bootloader**. The device will restart and reset to factory settings.
 
 That's it! Your device should say the bootloader is unlocked and the device is not trusted.
 
