@@ -1,4 +1,4 @@
-# Install Ubuntu Touch on Samsung Galaxy S20 (Code Name: x1s)
+# Install Ubuntu Touch on Samsung Galaxy S20 5G (Made by https://github.com/Sota4Ever)
 ## [Progress of the Samsung Galaxy S20](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/blob/halium-13/SamsungGalaxyS20.md)
 							Requirements
 								
