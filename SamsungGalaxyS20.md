@@ -51,12 +51,3 @@
 | SSH                        | You have to do it manually                                     |  ✅   |
 | Virtualization             |                                                                |  ❌   |
 | Automatic brightness       |                                                                |  ✅   |
-
-</td></tr> </table>
-
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>Samsung Galaxy S20 FE</strong></b></summary>
-
