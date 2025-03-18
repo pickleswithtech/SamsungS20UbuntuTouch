@@ -5,7 +5,7 @@
    
 
  - Samsung Galaxy S20 with an Unlocked Bootloader.
- - PC/Laptop running **Ubuntu 22.04.3 LTS** get **Ubuntu 22.04.3 LTS** from [here](https://cdimage.ubuntu.com/releases/jammy/release/source/ubuntu-22.04.3-src-1.iso).
+ - PC/Laptop running **Ubuntu 22.04.3 LTS** get **Ubuntu 22.04.3 LTS** from [here](https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.5-live-server-arm64.iso).
 
 # Unlock Bootloader
 
