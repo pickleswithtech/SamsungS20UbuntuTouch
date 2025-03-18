@@ -1,5 +1,5 @@
 # Install Ubuntu Touch on Samsung Galaxy S20 (Code Name: x1s)
-## [Progress of Devices with Exynos 990/9830 processor](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/edit/halium-13/SamsungGalaxyS20)
+## [Progress of the Samsung Galaxy S20](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/blob/halium-13/SamsungGalaxyS20)
 							Requirements
 								
    
@@ -9,15 +9,9 @@
 
 # 1. Unlock Bootloader
 
-[](https://github.com/Sota4Ever/UTFamily-Samsung-Exynos9830/blob/halium-13/Requirements-for-installation.md#unlock-bootloader)
-
 # Caution  
 
-[](https://github.com/Sota4Ever/UTFamily-Samsung-Exynos9830/blob/halium-13/Requirements-for-installation.md#%EF%B8%8F-caution-%EF%B8%8F)
-
 ### Your device will have poor security and be factory reset. AFTER THIS IS DONE THERE IS NO UNDO!
-
-[](https://github.com/Sota4Ever/UTFamily-Samsung-Exynos9830/blob/halium-13/Requirements-for-installation.md#your-device-will-have-poor-security-some-samsung-functions-will-not-work-and-it-will-be-reset-to-factory-settings-blah-blah-blah-v)
 
 For those who are experienced for that, for those who are new. I will give you a guide.
 
