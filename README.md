@@ -1,13 +1,19 @@
-# Install Ubuntu Touch on Samsung Galaxy S20 5G [(Made by Sota4Ever)](https://github.com/Sota4Ever)
-## [Progress of the Samsung Galaxy S20](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/blob/halium-13/SamsungGalaxyS20.md)
-							Requirements
-								
+
+## Install Ubuntu Touch on Samsung Galaxy S20 5G [(Made by Sota4Ever)](https://github.com/Sota4Ever)
+### [Preview of Ubuntu Touch running on the S20 5G](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/blob/halium-13/SamsungGalaxyS20.md) 
+### Welcome, to my guide. Today i will be showing you how to compile the kernel to install Ubuntu Touch on a Samsung Galaxy S20 5G with this basic guide. Let's get started!!!
+
+##### Below is everything you need for installing Ubuntu Touch on a S20 5G
+
+   ### 	Requirements:								
    
 
  - Samsung Galaxy S20 with an Unlocked Bootloader.
- - PC/Laptop running **Ubuntu 22.04.3 LTS** get **Ubuntu 22.04.3 LTS** from [here](https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.5-live-server-arm64.iso).
+ - PC or Laptop or VM running **The latest version of Ubuntu** Get the **Latest Version** from [here](https://ubuntu.com/download/desktop).
+ - Lots of patience
+ - A USB-C to USB-A Cable (Standard Phone Charger) 
 
-# Unlock Bootloader
+## Unlock Bootloader
 
 For those who are new. I will give you a guide.
 ### Step 1
@@ -17,26 +23,26 @@ Go back to  **Settings**, open  **Developer options**, and enable  **OEM unlocki
  ### Step 3
 Restart the device and quickly connect a  **USB cable** to your computer.
 ### Step 4
-While connecting, press  **Volume Up + Volume Down**  buttons simultaneously to enter  **Odin mode**.
+While connecting, hold  **Volume Up + Volume Down**  buttons until you see a blue screen with text to enter. Congrats you are now in **Odin Mode (Download Mode)**
 ### Step 5
-In Odin mode, press the volume up button to  **unlock the bootloader**. The device will restart and reset to factory settings.
+In **Odin Mode**, press the volume up button to  **unlock the bootloader**. The device will restart and reset to factory settings.
 
 That's it! Your device should say the bootloader is unlocked and the device is not trusted.
 
-Image1
+Image1 - 
 
-# 2.  Set Binarys to Custom
+## 2.  Set Binarys to Custom
 If you have just Unlocked the Bootloader your binarys will be set to Samsung only because Samsung Knox still runs to set it to custom there's two methods.
-# Method 1
+### Method 1
 Keep the phone on and connected to WIFI for at least a week.
-# Method 2
+### Method 2
 Use tools like Samfw to overwrite Samsung Knox. Below will be a guide for Samfw.
-# Samfw Method
+### Samfw Method
 1. Download Samfw from [here](https://samfw.com/SamFwToolSetup_v4.9.zip). Your antivirus may flag the setup file. Don't worry it's safe I have tested it myself on my main PC. This is a windows app ONLY! Use Ubuntu for everything else!
 2. After the setup is done open Samfw.
 3. Then put your phone into test mode by typing \*#0*# into the Phone app/Dialer
-# Compile the files needed for Ubuntu Touch
-First on your PC with **Ubuntu 22.04.3 LTS** open your terminal and enter `sudo apt update -y && sudo apt install -y \
+## Compile the files needed for Ubuntu Touch
+First on your PC or VM with **The latest version of Ubuntu**. Open your Terminal and enter `sudo apt update -y && sudo apt install -y \
     dialog bash sed wget git curl zip tar jq expect make cmake automake autoconf \
     llvm lld lldb clang gcc binutils bison perl gperf gawk flex bc python3 \
     zstd openssl unzip cpio build-essential ccache liblz4-tool libsdl1.2-dev \
@@ -45,6 +51,7 @@ First on your PC with **Ubuntu 22.04.3 LTS** open your terminal and enter `sudo 
     gcc-aarch64-linux-gnu gcc-arm-linux-gnueabihf gcc-arm-linux-gnueabi \
     libtinfo5 libelf-dev resolvconf dos2unix python3 python-is-python3 \
     kmod neofetch android-tools-fsutils fakeroot pahole
-` This command will download all the required files for compiling Ubuntu Touch.
+`
+ This command will download all the required files for compiling Ubuntu Touch for the Samsung S20 5G Kernel. Once the files finish downloading go to your Terminal again and run `git clone github.com/pickleswithtech/SamsungS20UbuntuTouch` The command you just entered will clone the github repository you are viewing at the moment. Meaning you have all the files necessary to start compiling.
 
  
