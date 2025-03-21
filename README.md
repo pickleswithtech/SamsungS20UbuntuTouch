@@ -41,7 +41,7 @@ Use tools like Samfw to overwrite Samsung Knox. Below will be a guide for Samfw.
 1. Download Samfw from [here](https://samfw.com/SamFwToolSetup_v4.9.zip). Your antivirus may flag the setup file. Don't worry it's safe I have tested it myself on my main PC. This is a windows app ONLY! Use Ubuntu for everything else!
 2. After the setup is done open Samfw.
 3. Then put your phone into test mode by typing \*#0*# into the Phone app/Dialer
-## Compile the files needed for Ubuntu Touch
+## Download the files needed to build/compile the kernel
 First on your PC or VM with **The latest version of Ubuntu**. Open your Terminal and enter `sudo apt update -y && sudo apt install -y \
     dialog bash sed wget git curl zip tar jq expect make cmake automake autoconf \
     llvm lld lldb clang gcc binutils bison perl gperf gawk flex bc python3 \
@@ -54,4 +54,6 @@ First on your PC or VM with **The latest version of Ubuntu**. Open your Terminal
 `
  This command will download all the required files for compiling Ubuntu Touch for the Samsung S20 5G Kernel. Once the files finish downloading go to your Terminal again and run `git clone github.com/pickleswithtech/SamsungS20UbuntuTouch` The command you just entered will clone the github repository you are viewing at the moment. Meaning you have all the files necessary to start compiling.
 
- 
+## Build/Compile the kernel
+Second once you are in the repository you will
+
